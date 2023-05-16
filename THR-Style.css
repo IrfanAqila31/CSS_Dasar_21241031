@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal;
+    font-style: italic;
+}
+
+#judul {
+    text-transform: uppercase;
+}
+
+.penulis {
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.6em;
+    text-indent: 5%;
+    word-spacing: 5px;
+}
+
+ol li {
+    color: blue;
+}
+
+body {
+    background-color: black;
+    background-image: url(img/Website.jpeg);
+    /* valuenya bisa diganti ganti */
+    background-repeat: repeat;
+    background-position: center center;
+
+    padding: 100px;
+}
+
+thead .kolom {
+    background-color: blue;
+}
+
+table thead .kolom:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+ol .hasil:active {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.link:visited {
+    color: green;
+}
